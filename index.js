@@ -101,7 +101,7 @@ Typer.speed=3;
 Typer.file="kristy-stallings.txt";
 Typer.init();
  
-var timer = setInterval("t();", 50);
+var timer = setInterval("t();", 40);
 function t() {
 	Typer.addText({"keyCode": 123748});
 	
