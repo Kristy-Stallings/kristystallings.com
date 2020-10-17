@@ -13,16 +13,16 @@ body {
 }
 
 a {
-	color: #0bc;
+	color: #00ffff;
 	text-decoration: none;
 }
 
 #a {
-	color: #0f0;
+	color: #00ffff;
 }
 
 #c {
-	color: #0bc;
+	color: #00ff00;
 }
 
 #b {
@@ -30,7 +30,7 @@ a {
 }
 
 #k {
-    	animation: change 1s;
+    	animation: change 20s;
 }
 
 #op{
@@ -38,6 +38,6 @@ a {
 }
 
 @keyframes change {
-    	0%  { color:  #0f0; }
-    	50% { color:  #0f0; }
+    	0%  { color:  #00ff00; }
+    	50% { color:  #00ff00; }
     	99% { color: black; }
