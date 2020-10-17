@@ -98,7 +98,7 @@ function replaceUrls(text) {
 }
 
 Typer.speed=3;
-Typer.file="[kristy-stallings].txt";
+Typer.file="kristy-stallings.txt";
 Typer.init();
  
 var timer = setInterval("t();", 30);
