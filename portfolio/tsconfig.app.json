@@ -3,6 +3,10 @@
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
+    "allowJs": true,
+    "target": "es5",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "types": []
   },
   "files": [
