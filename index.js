@@ -97,11 +97,11 @@ function replaceUrls(text) {
 	}
 }
 
-Typer.speed=5;
+Typer.speed=1;
 Typer.file="kristy-stallings.txt";
 Typer.init();
  
-var timer = setInterval("t();", 40);
+var timer = setInterval("t();", 50);
 function t() {
 	Typer.addText({"keyCode": 123748});
 	
