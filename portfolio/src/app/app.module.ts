@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
+import { IonicModule } from '@ionic/angular';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
     AppRoutingModule,
     RouterModule.forRoot([
       { path: '', component: AppComponent, pathMatch: 'full' },
-    ])
+    ]),
+    IonicModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

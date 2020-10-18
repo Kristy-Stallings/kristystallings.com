@@ -5,25 +5,9 @@
       <span style="color:#1FDFEF"> Stallings</span>
     </h2>
     <div class="container">
-      <a class="navbar-brand" [routerLink]="['/']">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
-        aria-label="Toggle navigation" [attr.aria-expanded]="isExpanded" (click)="toggle()">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse" [ngClass]="{ show: isExpanded }">
-        <ul class="navbar-nav flex-grow">
-          <li class="nav-item" [routerLinkActive]="['link-active']" [routerLinkActiveOptions]="{ exact: true }">
-            <a class="nav-link text-dark" [routerLink]="['/']">Home</a>
-          </li>
-          <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-dark" [routerLink]="['#About']">About Me</a>
-          </li>
-          <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-dark" [routerLink]="['/Projects']">Projects</a>
-          </li>
-        </ul>
+      <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+      <link rel="stylesheet" type="text/css" href="nav-menu.component.css">
+      <li><ion-icon src="/static/logo-github.svg"></ion-icon></li>
+      <li><ion-icon src="/static/logo-linkedin.svg"></ion-icon></li>
+      <li><ion-icon src="/static/logo-twitter.svg"></ion-icon></li>
       </div>
-    </div>
-  </nav>
-</header>
