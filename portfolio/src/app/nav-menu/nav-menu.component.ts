@@ -16,3 +16,13 @@ export class NavMenuComponent {
     this.isExpanded = !this.isExpanded;
   }
 }
+
+var els = document.querySelectorAll('.speak');
+[].forEach.call(els, function(el: { addEventListener: (arg0: string, arg1: () => void) => void; classList: { add: (arg0: string) => void; }; }) {
+	el.addEventListener('click', function() {
+		[].forEach.call(els, function(clk: { classList: { remove: (arg0: string) => void; }; }) {
+			clk.classList.remove('active');
+		});
+		el.classList.add('active');
+	});
+});

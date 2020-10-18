@@ -1,3 +1,10 @@
+.header{
+    font-weight: 800;
+    font-size: 30px;
+    font-family: 'Dosis';
+}
+
+
 a {
 	color: #00ffff;
 	text-decoration: none;
