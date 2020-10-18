@@ -4,6 +4,9 @@
     font-family: 'Dosis';
 }
 
+ul {
+    list-style-type: square;
+  }
 
 a {
 	color: #00ffff;
