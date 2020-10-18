@@ -30,7 +30,6 @@ a {
 }
 
 .terminal::before {
-    content: "\2022 \2022 \2022";
     position: absolute;
     top: 0;
     left: 0;
@@ -71,7 +70,7 @@ a {
     width: 12em;
     opacity: 0;
     -webkit-animation: type2 1s steps(8, end);
-    animation: type 2s steps(40, end);
+    animation: type2 2s steps(40, end);
     -webkit-animation-delay: 2s;
     animation-delay: 2s;
     -webkit-animation-fill-mode: forwards;
@@ -81,7 +80,7 @@ a {
 .css-typing p:nth-child(3) {
     width: 45em;
     opacity: 0;
-    -webkit-animation: type3 1s steps(10, end);
+    -webkit-animation: type2 1s steps(10, end);
     animation: type2 4s steps(20, end);
     -webkit-animation-delay: 4s;
     animation-delay: 4s;
@@ -92,8 +91,8 @@ a {
 .css-typing p:nth-child(4) {
     width: 45em;
     opacity: 0;
-    -webkit-animation: type3 7s steps(10, end);
-    animation: type3 4s steps(20, end);
+    -webkit-animation: type2 7s steps(10, end);
+    animation: type2 4s steps(20, end);
     -webkit-animation-delay: 8s;
     animation-delay: 8s;
     -webkit-animation-fill-mode: forwards;
@@ -103,8 +102,8 @@ a {
 .css-typing p:nth-child(5) {
     width: 50em;
     opacity: 0;
-    -webkit-animation: type3 7s steps(10, end);
-    animation: type3 4s steps(20, end);
+    -webkit-animation: type2 7s steps(10, end);
+    animation: type2 4s steps(20, end);
     -webkit-animation-delay: 12s;
     animation-delay: 12s;
     -webkit-animation-fill-mode: forwards;
@@ -114,8 +113,8 @@ a {
 .css-typing p:nth-child(6) {
     width: 30em;
     opacity: 0;
-    -webkit-animation: type3 7s steps(10, end);
-    animation: type3 4s steps(20, end);
+    -webkit-animation: type2 7s steps(10, end);
+    animation: type2 4s steps(20, end);
     -webkit-animation-delay: 16s;
     animation-delay: 16s;
     -webkit-animation-fill-mode: forwards;
@@ -125,8 +124,8 @@ a {
 .css-typing p:nth-child(7) {
     width: 45em;
     opacity: 0;
-    -webkit-animation: type3 7s steps(10, end);
-    animation: type3 4s steps(20, end);
+    -webkit-animation: type2 7s steps(10, end);
+    animation: type2 4s steps(20, end);
     -webkit-animation-delay: 20s;
     animation-delay: 20s;
     -webkit-animation-fill-mode: forwards;
@@ -134,22 +133,12 @@ a {
 }
 
     .css-typing p:nth-child(8) {
-    width: 33em;
+    width: 25em;
     opacity: 0;
-    -webkit-animation: type3 7s steps(10, end);
-    animation: type3 4s steps(20, end);
+    -webkit-animation: type2 7s steps(10, end);
+    animation: type2 4s steps(20, end);
     -webkit-animation-delay: 24s;
     animation-delay: 24s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-}
-.css-typing p:nth-child(8) {
-    width: 18em;
-    opacity: 0;
-    -webkit-animation: type3 7s steps(10, end);
-    animation: type3 4s steps(20, end);
-    -webkit-animation-delay: 25s;
-    animation-delay: 25s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -159,8 +148,8 @@ a {
     opacity: 0;
     -webkit-animation: type3 7s steps(10, end), blink 0.5s step-end infinite alternate;
     animation: type3 4s steps(20, end), blink 0.5s step-end infinite alternate;
-    -webkit-animation-delay: 30s;
-    animation-delay: 30s;
+    -webkit-animation-delay: 28s;
+    animation-delay: 28s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -196,129 +185,14 @@ a {
         border: none;
     }
 }
+
 @keyframes type3 {
-    0% {width: 0;}
-    1% { opacity: 1;}
-    99.9% {border-right: 0.15em solid #00ff00;}
-    100% {
-        opacity: 1;
-        border: none;
-    }
-}
-
-@-webkit-keyframes type3 {
-    0% {  width: 0;}
-    1% {opacity: 1;}
-    99.9% { border-right: 0.15em solid #00ff00;}
-    100% {
-        opacity: 1;
-        border: none;
-    }
-}
-
-@keyframes type4 {
-    0% {width: 0;}
-    1% { opacity: 1;}
-    99.9% {border-right: 0.15em solid #00ff00;}
-    100% {
-        opacity: 1;
-        border: none;
-    }
-}
-
-@-webkit-keyframes type4 {
-    0% {  width: 0;}
-    1% {opacity: 1;}
-    99.9% { border-right: 0.15em solid #00ff00;}
-    100% {
-        opacity: 1;
-        border: none;
-    }
-}
-
-@keyframes type5 {
-    0% {width: 0;}
-    1% { opacity: 1;}
-    99.9% {border-right: 0.15em solid #00ff00;}
-    100% {
-        opacity: 1;
-        border: none;
-    }
-}
-
-@-webkit-keyframes type5 {
-    0% {  width: 0;}
-    1% {opacity: 1;}
-    99.9% { border-right: 0.15em solid #00ff00;}
-    100% {
-        opacity: 1;
-        border: none;
-    }
-}
-@keyframes type6 {
-    0% {width: 0;}
-    1% { opacity: 1;}
-    99.9% {border-right: 0.15em solid #00ff00;}
-    100% {
-        opacity: 1;
-        border: none;
-    }
-}
-
-@-webkit-keyframes type6 {
-    0% {  width: 0;}
-    1% {opacity: 1;}
-    99.9% { border-right: 0.15em solid #00ff00;}
-    100% {
-        opacity: 1;
-        border: none;
-    }
-}
-@keyframes type7 {
-    0% {width: 0;}
-    1% { opacity: 1;}
-    99.9% {border-right: 0.15em solid #00ff00;}
-    100% {
-        opacity: 1;
-        border: none;
-    }
-}
-
-@-webkit-keyframes type7 {
-    0% {  width: 0;}
-    1% {opacity: 1;}
-    99.9% { border-right: 0.15em solid #00ff00;}
-    100% {
-        opacity: 1;
-        border: none;
-    }
-}
-@keyframes type8 {
-    0% {width: 0;}
-    1% { opacity: 1;}
-    99.9% {border-right: 0.15em solid #00ff00;}
-    100% {
-        opacity: 1;
-        border: none;
-    }
-}
-
-@-webkit-keyframes type8 {
-    0% {  width: 0;}
-    1% {opacity: 1;}
-    99.9% { border-right: 0.15em solid #00ff00;}
-    100% {
-        opacity: 1;
-        border: none;
-    }
-}
-@keyframes type9 {
     0% { width: 0;}
     1% { opacity: 1;}
     100% {opacity: 1;}
 }
 
-@-webkit-keyframes type9 {
+@-webkit-keyframes type3 {
     0% {width: 0;}
     1% {opacity: 1;}
     100% {opacity: 1;}
