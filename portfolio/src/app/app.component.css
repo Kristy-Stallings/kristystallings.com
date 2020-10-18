@@ -79,7 +79,7 @@ a {
 }
 
 .css-typing p:nth-child(3) {
-    width: 45em;
+    width: 23em;
     opacity: 0;
     -webkit-animation: type2 1s steps(10, end);
     animation: type2 4s steps(20, end);
