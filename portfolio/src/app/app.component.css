@@ -6,6 +6,24 @@
 
 ul {
     list-style-type: square;
+    font-family: 'Dosis';
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  
+h5 {
+    list-style-type: square;
+    font-family: 'Dosis';
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  p {
+    list-style-type: square;
+    font-family: 'Dosis';
+    font-weight: 500;
+    font-size: 18px;
   }
 
 a {
