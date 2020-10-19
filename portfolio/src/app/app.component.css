@@ -44,10 +44,10 @@ a {
 }
 .terminal {
     position: relative;
-    left: 16%;
+    left: 3%;
     text-align: left;
     color: white;
-    width: 80%;
+    width: 70%;
     max-width: 800px;
     border-radius: 6px;
     padding-top: 45px;
