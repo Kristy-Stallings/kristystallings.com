@@ -11,6 +11,14 @@ ul {
     font-size: 20px;
   }
 
+  ul2 {
+    list-style-type: square;
+    font-family: 'Dosis';
+    font-weight: 700;
+    font-size: 20px;
+    color: #00ffff;
+  }
+
   
 h5 {
     list-style-type: square;
