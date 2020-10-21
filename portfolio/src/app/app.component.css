@@ -107,7 +107,7 @@ a {
     width: 35em;
     opacity: 0;
     -webkit-animation: type2 1s steps(8, end);
-    animation: type2 1s steps(40, end);
+    animation: type2 2s steps(40, end);
     -webkit-animation-delay: 2s;
     animation-delay: 2s;
     -webkit-animation-fill-mode: forwards;
