@@ -52,10 +52,10 @@ a {
 }
 .terminal {
     position: relative;
-    left: 3%;
+    left: 14%;
     text-align: left;
     color: white;
-    width: 85%;
+    width: 95%;
     max-width: 800px;
     border-radius: 6px;
     padding-top: 45px;
